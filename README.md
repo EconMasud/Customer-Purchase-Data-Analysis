@@ -25,3 +25,5 @@ This project performs Exploratory Data Analysis (EDA) on a customer purchase dat
 - Sorting credit card types by popularity
 - Identifying high–value customers (≥100 CAD purchase)
 - Filtering by spending + card provider (e.g., Visa customers spending ≥100 CAD)
+
+**1. Import Pandas and Read the csv file.**

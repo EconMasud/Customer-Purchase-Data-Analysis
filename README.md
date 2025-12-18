@@ -1,4 +1,4 @@
-# Customer-Purchase-Data-Analysis
+<h1 align=center> Customer-Purchase-Data-Analysis </h1>
 This project performs Exploratory Data Analysis (EDA) on a customer purchase dataset using Python Pandas. The goal is to extract insights about customer demographics, spending behavior, and credit card usage.
 
 ## Dataset Overview

@@ -27,20 +27,20 @@ This project performs Exploratory Data Analysis (EDA) on a customer purchase dat
 - Filtering by spending + card provider (e.g., Visa customers spending ≥100 CAD)
 
 **1. Import Pandas and Read the csv file.**
-import pandas as pd
-df = pd.read_csv('/content/sample_data/Cust_Purch_FakeData.csv')
+- import pandas as pd
+- df = pd.read_csv('/content/sample_data/Cust_Purch_FakeData.csv')
 
 **2. Finding the max and min ages of customer.**
-print("Max. age of the customer is:  ", df['age'].max() )
-print("Min. age of the customer is:  ", df['age'].min() )
-print("Avg. age of the customer is:  ", df['age'].mean().round(0))
+- print("Max. age of the customer is:  ", df['age'].max() )
+- print("Min. age of the customer is:  ", df['age'].min() )
+- print("Avg. age of the customer is:  ", df['age'].mean().round(0))
 
 **3. Most common customer's names.**
-df['first'].value_counts().head(3)
+- df['first'].value_counts().head(3)
 
 **4. Finding the customers with the same phone number.**
-df['phone'].value_counts().head(2) # lets find what phone number is twice!
-df[df['phone'] == phonedf.index[0]] # Now we know the phone number, let's find out the other stuff!
+- df['phone'].value_counts().head(2) # lets find what phone number is twice!
+- df[df['phone'] == phonedf.index[0]] # Now we know the phone number, let's find out the other stuff!
 
 **5. How many customers have profession "Structural Engineer"?**
 def find_string(title):

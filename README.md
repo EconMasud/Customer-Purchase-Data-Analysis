@@ -17,11 +17,11 @@ This project performs Exploratory Data Analysis (EDA) on a customer purchase dat
 | `price(CAD)` | Amount spent in CAD         |
 
 ## Analysis Performed
-Detecting duplicate phone numbers
-Finding customers who did not spend anything
-Counting credit cards expiring in a given year (e.g., 2019)
-Extracting email providers and ranking most popular domains
-Filtering customers by specific email domains (gmail, yahoo, edu, etc.)
-Sorting credit card types by popularity
-Identifying high–value customers (≥100 CAD purchase)
-Filtering by spending + card provider (e.g., Visa customers spending ≥100 CAD)
+- Detecting duplicate phone numbers
+- Finding customers who did not spend anything
+- Counting credit cards expiring in a given year (e.g., 2019)
+- Extracting email providers and ranking most popular domains
+- Filtering customers by specific email domains (gmail, yahoo, edu, etc.)
+- Sorting credit card types by popularity
+- Identifying high–value customers (≥100 CAD purchase)
+- Filtering by spending + card provider (e.g., Visa customers spending ≥100 CAD)
